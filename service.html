@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Mania</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpaperaccess.com/full/1716974.jpg");
+    background-size: 100px;
+
+    
+}
+
+body {
+    background-color: rgb(57, 201, 14);
+}
+
+.header {
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar .left .app-link {
+    font-weight: bold;
+}
+
+.main-content h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.option-card {
+    background-color: rgb(32, 29, 24);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    
+}
+
+.option-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.option-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.option-card p {
+    color: #070707ed;
+    margin: 10px 20px 20px;
+}
+
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+    
+        </nav>
+            <h1 style="color: rgb(11, 11, 11);">WE HAVE WIDE RANGE OF FRUITS,VEGETABLES AND GRAINS</h1>
+
+    </header>
+
+    <!-- Options Section -->
+    <section class="options">
+        <div class="option-card">
+            <img src="https://th.bing.com/th/id/OIP.llTF-y5BU9FhKOj6Voom3QHaE8?rs=1&pid=ImgDetMain.jpg" alt="Grains">
+            <h2>Grains</h2>
+            <p>hygienically tested</p>
+        </div>
+        <div class="option-card">
+            <img src="https://i.pinimg.com/originals/27/f2/02/27f202975f0473774cd0d21067a16709.jpg" alt="Vegetables">
+            <h2>Vegetables</h2>
+            <p>organically tested</p>
+        </div>
+        <div class="option-card">
+            <img src="https://www.pcclean.io/wp-content/gallery/fruit-hd-wallpapers/311171.jpg" alt="Fruits">
+            <h2>Fruits</h2>
+            <p>organically tested</p>
+        </div>
+        
+    </section>
+</body>
+</html>
